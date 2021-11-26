@@ -4,7 +4,7 @@
 
 The following YAML file is used to create a namespace in the Kubernetes Cluster.
 
-```
+```yaml
 apiVersion: v1
 kind: Namespace
 metadata:
@@ -15,7 +15,7 @@ metadata:
 
 The following is a YAML file to create a deployment of the sample Python Application.
 
-```
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -39,7 +39,7 @@ spec:
 
 The following is a sample YAML file to create a Service for the hello application.
 
-```
+```yaml
 kind: Service
 apiVersion: v1
 metadata:
