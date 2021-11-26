@@ -1,6 +1,6 @@
 ### Flux Install YAML
 #### This is the output from fluxctl when we install the fluxd daemon. This is piped to kubectl so that it may be applied to the cluster.
-```
+```yaml
 ---
 apiVersion: v1
 kind: Secret
